@@ -1,6 +1,11 @@
 # IDE
 .vscode/
 
+# TLS certificates and private keys (made by setup-credentials.py) - never commit these
+certs/
+*.key
+*.pem
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
